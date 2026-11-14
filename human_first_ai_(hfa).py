@@ -1,3 +1,4 @@
+import streamlit as st
 # -*- coding: utf-8 -*-
 """HUMAN FIRST AI (HFA).ipynb
 
@@ -161,6 +162,7 @@ print("Dataset loaded successfully.")
 print("Number of records:", len(df))
 
 display(df)
+display(df.describe(include="all"))
 
 print("\nDataset information:")
 display(df.describe(include="all"))
